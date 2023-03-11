@@ -45,7 +45,6 @@ function constructLocalhostUrl(prodUrl) {
   const paths = pathname.split("/").filter((path) => {
     return path !== "";
   });
-  console.log(paths);
   const finalPath = paths.length > 0 ? getFinalPath(paths) : "";
 
   /* Setting the lang for the url */
