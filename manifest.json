@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Open MB In Localhost",
+  "description": "Extension that helps open Microbrands URL on Localhost in single tap",
+  "version": "1.0",
+  "permissions": ["tabs", "activeTab", "tabGroups"],
+  "icons": {
+    "16": "images/icon.png"
+  },
+  "action": {
+    "default_popup": "index.html"
+  }
+}

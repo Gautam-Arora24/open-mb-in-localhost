@@ -1,0 +1,17 @@
+body {
+  width: 250px;
+}
+
+.input-container {
+  width: 100%;
+}
+#port-input {
+  width: 90%;
+}
+.checkbox {
+  margin-top: 1rem;
+}
+
+button {
+  margin-top: 1rem;
+}
